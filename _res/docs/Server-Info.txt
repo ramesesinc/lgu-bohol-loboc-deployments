@@ -19,3 +19,8 @@ Portainer-Pass: p@ssw0rd
 
 Webmin-URL : https://10.2.3.4:10000
 Webmin-User: root
+
+[LGU Information]
+PIN  : 047-29
+Name : Loboc
+Type : Municipality
