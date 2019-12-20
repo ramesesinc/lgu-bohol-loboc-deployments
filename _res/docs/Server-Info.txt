@@ -1,0 +1,21 @@
+[Application Server]
+IP  : 10.2.3.4
+User: L0bocEtr@cs2020
+Pass: 10qoakzm29wisjxn!
+
+
+[Database Server]
+Type: MySQL
+IP  : 20.2.3.3
+Port: 3306
+User: Lob0c3tr@cs2020
+Pass: 3edc8uhb4rfv7ygv!
+
+
+[Web Management Tools]
+Portainer-URL : http://10.2.3.4:9000
+Portainer-User: admin
+Portainer-Pass: p@ssw0rd
+
+Webmin-URL : https://10.2.3.4:10000
+Webmin-User: root
