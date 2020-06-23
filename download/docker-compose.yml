@@ -27,7 +27,7 @@ services:
       - ../_custom/static_files:/www/static_files
       - ../_custom/module-client:/www/downloads/modules/custom
 
-      - ../entity/client:/apps/server/public/resources/downloads/modules/entity
+      - ../entity/client:/www/downloads/modules/entity
 
     command: ["sh", "/_src/scripts/run.sh" ]
 
