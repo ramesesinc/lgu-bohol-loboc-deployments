@@ -21,10 +21,10 @@ services:
     volumes:
       - ./nginx/_src:/_src
       - ./nginx/_src/conf.d:/etc/nginx/conf.d
-      - ./nginx/resources:/resources
-      - ../_custom/static_files:/resources/static_files
-      - ./node/resources/downloads/modules:/resources/downloads/modules
-      - ../_custom/module-client:/resources/downloads/modules/custom
+      - ./nginx/resources:/www
+      - ./node/resources/downloads:/www/downloads
+      - ../_custom/static_files:/www/static_files
+      - ../_custom/module-client:/www/downloads/modules/custom
     command: ["sh", "/_src/scripts/run.sh" ]
 
 
