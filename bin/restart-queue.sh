@@ -1,8 +1,9 @@
 #!/bin/sh
-cd ~/docker/queue
+RUN_DIR=`pwd`
+cd ../queue
 docker-compose down
 docker system prune -f
-sleep 3
+sleep 1
 docker-compose up -d
 docker-compose logs -f queue-server
-cd ~
+cd $RUN_DIR
