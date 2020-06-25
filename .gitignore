@@ -3,9 +3,10 @@
 .DS_Store
 .osiris_pid
 .shutdown_pid
-_custom
 Thumbs.db
+/_custom
+/_dev
 updates-dev.xml
 docker-compose-test.yml
-*.mp4
 download/node/resources/downloads/**/*.xml
+*.mp4
